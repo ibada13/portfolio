@@ -1,0 +1,43 @@
+
+body{
+  font-family: 'Cairo', sans-serif !important;
+  
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
+    user-select: none;         /* Standard syntax */
+  
+  
+  /* overflow-x: hidden !important; */
+}
+/* for qutoe section */
+.specialh1{
+  font-family: 'Amatic SC', cursive;
+}
+
+
+
+
+#qm {
+  will-change: transform, opacity;
+}
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
