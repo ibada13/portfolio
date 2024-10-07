@@ -60,7 +60,7 @@ const Draggable = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, );
+  }, []);
 
   const handleMouseDown = (e: React.MouseEvent | React.TouchEvent) => {
     const clientX = e.type === "mousedown" ? (e as React.MouseEvent).clientX : (e as React.TouchEvent).touches[0].clientX;
