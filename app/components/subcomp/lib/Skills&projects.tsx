@@ -29,11 +29,13 @@ const color={
     laravel:"#f05340"
 }
 const techs = {
-    NextJs: <RiNextjsFill className=' shadow-md' size={75} color='white' />,
-    Django:<BiLogoDjango className=' shadow-md' color={color.djangocolor} size={75} />,
-    Tailwind:<RiTailwindCssFill className=' shadow-md' color={ color.tailwind} size={75} />,
-    Laravel:<FaLaravel className=' shadow-md' color={color.laravel } size={ 75} />,
+    NextJs: <RiNextjsFill className="animate-pulse drop-shadow-[0_0_20px_white] brightness-200" size={75} color="white" />,
+    Django: <BiLogoDjango className="animate-pulse drop-shadow-[0_0_20px_#187F58] brightness-200" size={75} color={color.djangocolor} />,
+    Tailwind: <RiTailwindCssFill className="animate-pulse drop-shadow-[0_0_20px_#06B6D4] brightness-200" size={75} color={color.tailwind} />,
+    Laravel: <FaLaravel className="animate-pulse drop-shadow-[0_0_30px_#f05340] brightness-200" size={75} color={color.laravel} />,
 }
+
+
 export const BackEndProjects: Project[] = [
     {
         mainicon: <RiNotionFill />,

@@ -19,6 +19,7 @@ const config: Config = {
         gl: "#00FF00",
         dark:"#070606",
       },
+      
     },
   },
   plugins: [],

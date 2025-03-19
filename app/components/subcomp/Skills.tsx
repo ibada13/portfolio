@@ -29,7 +29,8 @@ export const Skil = () => {
         </h1>
       </div>
 
-      {/* Card Grid */}
+      
+      
       <div id='right' className="container mx-auto flex-grow w-1/2">
         <div className="flex flex-col">
           {cardData.map((card, idx) => (
