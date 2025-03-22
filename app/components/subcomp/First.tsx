@@ -7,9 +7,9 @@ import { Typewriter } from 'react-simple-typewriter'
 import ghidraicon from './ghidra.256x256.png'
 import main from './coding-svgrepo-com.svg';
 import Image from 'next/image';
-
+import HistoricalTimeline from '@/app/test/page';
 export const First = () => { 
-    const words = ["youcef", "A Web-Developer", "A University Student", "Human", "Malware-Developer"]
+    const words = ["youcef", "A Web-Developer", "A University Student", "Human", "History Geek"];
 
     useEffect(() => {
         const tl = gsap.timeline();
@@ -27,9 +27,9 @@ export const First = () => {
     return (
         <>
             {/* Main icon animation */}
-            <div id="popo" className="flex overflow-hidden justify-center items-center absolute inset-0 p-2">
+            <div id="popo" className="flex overflow-hidden justify-center items-center absolute inset-0 p-10 ">
                 <div className="shadow-lg">
-                    <Image src={ghidraicon} id="pop" alt="" />
+                    <HistoricalTimeline />
                 </div>
             </div>
 
