@@ -4,7 +4,6 @@ import { BsGithub, BsWhatsapp } from 'react-icons/bs'
 import { SiLichess } from "react-icons/si";
 import { gsap, Expo } from 'gsap';
 import { Typewriter } from 'react-simple-typewriter'
-import ghidraicon from './ghidra.256x256.png'
 import main from './coding-svgrepo-com.svg';
 import Image from 'next/image';
 import HistoricalTimeline from '@/app/figures/HistoricalTimeline';
