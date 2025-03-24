@@ -7,7 +7,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import ghidraicon from './ghidra.256x256.png'
 import main from './coding-svgrepo-com.svg';
 import Image from 'next/image';
-import HistoricalTimeline from '@/app/test/page';
+import HistoricalTimeline from '@/app/figures/HistoricalTimeline';
 export const First = () => { 
     const words = ["youcef", "A Web-Developer", "A University Student", "Human", "History Geek"];
 

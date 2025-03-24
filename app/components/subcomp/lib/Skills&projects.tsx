@@ -2,9 +2,10 @@
 import React from 'react'
 import {  FaLaravel } from 'react-icons/fa'
 import {BiLogoDjango} from 'react-icons/bi'
-
+import { GiBouncingSword ,GiTechnoHeart} from "react-icons/gi";
 import { RiNextjsFill, RiNotionFill, RiTailwindCssFill } from 'react-icons/ri'
 import { FaNoteSticky, FaTableCells } from 'react-icons/fa6'
+import { TbUniverse } from "react-icons/tb";
 interface Project { 
     mainicon: JSX.Element, 
     title: string, 
@@ -38,6 +39,12 @@ const techs = {
 
 export const BackEndProjects: Project[] = [
     {
+        mainicon:<GiBouncingSword />,
+        title: "Hussam_Al-Hikma",
+        techs: [techs.NextJs, techs.Tailwind, techs.Laravel],
+        link :"https://github.com/ibada13/Hussam_Al-Hikma",
+    },
+    {
         mainicon: <RiNotionFill />,
         title:"Notion Api",
         techs: [techs.NextJs, techs.Tailwind],
@@ -51,6 +58,18 @@ export const BackEndProjects: Project[] = [
     }
 ] 
 export const FrontEndProject: Project[] = [
+    {
+        mainicon: <GiTechnoHeart size={75} color='white' />,
+        title: "Tech Care",
+        techs: [techs.Tailwind, techs.NextJs],
+        link:"https://tech-care-kappa.vercel.app/"
+    },
+        {
+        mainicon: <TbUniverse size={75} color='cyan' />,
+        title: "FrontVerse",
+        techs: [techs.Tailwind, techs.NextJs],
+        link:"https://frontverse.vercel.app/"
+    },
     {
         mainicon: <FaTableCells size={75} color='white' />,
         title: "flash memory",
