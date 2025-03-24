@@ -9,7 +9,7 @@ const Projects = () => {
   useEffect(() => {
     const trigger = ScrollTrigger.create({
       trigger: "#projectsbox",
-      start: "top 120%",
+      start: "top top",
       end: "120% bottom",
       pin: "#middle",
       pinSpacing: true,

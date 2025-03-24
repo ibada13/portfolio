@@ -45,3 +45,48 @@ export interface project {
     icon: JSX.Element,
     sometext?:string,
 }
+interface Quote { 
+    quote: string, 
+    whoSaidIt:string , 
+}
+export const quotes: Quote[] = [
+    {
+      quote: "Impossible is a word to be found only in the dictionary of fools.",
+      whoSaidIt: "Napoleon Bonaparte",
+    },
+    {
+      quote: "The battlefield is a scene of constant chaos. The winner will be the one who controls that chaos, both his own and the enemy’s.",
+      whoSaidIt: "Napoleon Bonaparte",
+    },
+    {
+      quote: "Veni, vidi, vici.",
+      whoSaidIt: "Julius Caesar", // "I came, I saw, I conquered."
+    },
+    {
+      quote: "The die is cast.",
+      whoSaidIt: "Julius Caesar", // Famous quote marking the point of no return as he crossed the Rubicon.
+    },
+    {
+      quote: "Cowards die many times before their deaths; the valiant never taste of death but once.",
+      whoSaidIt: "Julius Caesar",
+    },
+
+
+    {
+      quote: "Victory is not a gift, it is a struggle, a challenge, and an honor earned through hardship.",
+      whoSaidIt: "Khalid ibn al-Walid",
+    },
+ 
+ 
+    {
+      quote: "Silence is the only language that time speaks fluently.",
+      whoSaidIt: "Malik Ben Nabi",
+    },
+    {
+      quote: "It is difficult for a talkative people to hear the silent sound of the fleeing footsteps of time.",
+      whoSaidIt: "Malik Ben Nabi",
+    },
+
+
+  ];
+  

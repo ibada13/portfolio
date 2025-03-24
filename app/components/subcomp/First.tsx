@@ -12,7 +12,7 @@ export const First = () => {
 
     useEffect(() => {
         const tl = gsap.timeline();
-        const duration = 1.5; // Total duration for each animation step
+        const duration = 1.5;
   
         tl.to('#pop', { opacity: 0.7, ease: Expo.easeInOut, rotateX: 360, scale: 1.1, duration, delay: 0.1 })
           .to('#pop', { opacity: 0.5, scale: 1.0, duration: 0.3 })
