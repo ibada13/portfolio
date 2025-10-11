@@ -4,7 +4,7 @@ import {  FaLaravel } from 'react-icons/fa'
 
 import { GiBouncingSword ,GiTechnoHeart} from "react-icons/gi";
 import { RiNextjsFill,  RiTailwindCssFill } from 'react-icons/ri'
-import { FaReact,FaNoteSticky, FaTableCells } from 'react-icons/fa6'
+import { FaReact, FaTableCells } from 'react-icons/fa6'
 import { SiFastapi } from "react-icons/si";
 import { TbUniverse } from "react-icons/tb";
 import { BsJournals } from "react-icons/bs";
