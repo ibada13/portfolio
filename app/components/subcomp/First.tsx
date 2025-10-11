@@ -4,29 +4,28 @@ import { BsGithub, BsWhatsapp } from 'react-icons/bs'
 import { SiLichess } from "react-icons/si";
 import { gsap, Expo } from 'gsap';
 import { Typewriter } from 'react-simple-typewriter'
-import main from './coding-svgrepo-com.svg';
-import Image from 'next/image';
+
 import HistoricalTimeline from '@/app/figures/HistoricalTimeline';
 export const First = () => { 
     const words = ["youcef", "A Web-Developer", "A University Student", "Human", "History Geek"];
 
-    useEffect(() => {
-        const tl = gsap.timeline();
-        const duration = 1.5;
+    // useEffect(() => {
+    //     const tl = gsap.timeline();
+    //     const duration = 1.5;
   
-        tl.to('#pop', { opacity: 0.7, ease: Expo.easeInOut, rotateX: 360, scale: 1.1, duration, delay: 0.1 })
-          .to('#pop', { opacity: 0.5, scale: 1.0, duration: 0.3 })
-          .to('#pop', { rotateY: -360, opacity: 0.7, scale: 1.1, duration, ease: Expo.easeInOut }, '+=0.2')
-          .to('#pop', { opacity: 0.5, scale: 1.0, duration: 0.3 })
-          .to('#pop', { rotateZ: 360, opacity: 0.7, scale: 1.1, duration, ease: Expo.easeInOut }, '+=0.2')
-          .to('#pop', { opacity: 0.5, scale: 1.0, duration: 0.3 })
-          .repeat(-1);
-    }, []);
+    //     tl.to('#pop', { opacity: 0.7, ease: Expo.easeInOut, rotateX: 360, scale: 1.1, duration, delay: 0.1 })
+    //       .to('#pop', { opacity: 0.5, scale: 1.0, duration: 0.3 })
+    //       .to('#pop', { rotateY: -360, opacity: 0.7, scale: 1.1, duration, ease: Expo.easeInOut }, '+=0.2')
+    //       .to('#pop', { opacity: 0.5, scale: 1.0, duration: 0.3 })
+    //       .to('#pop', { rotateZ: 360, opacity: 0.7, scale: 1.1, duration, ease: Expo.easeInOut }, '+=0.2')
+    //       .to('#pop', { opacity: 0.5, scale: 1.0, duration: 0.3 })
+    //       .repeat(-1);
+    // }, []);
     
     return (
         <>
             {/* Main icon animation */}
-            <div id="popo" className="flex overflow-hidden justify-center items-center absolute inset-0 p-10 ">
+            <div id="pop" className="flex overflow-hidden justify-center items-center absolute inset-0 p-10 ">
                 <div className="shadow-lg">
                     <HistoricalTimeline />
                 </div>
@@ -62,7 +61,7 @@ export const First = () => {
             {/* Under maintenance banner */}
             <div className="hidden w-full absolute inset-0 bg-red-400 bg-opacity-80 text-6xl uppercase text-center  justify-around items-center">
                 this website is under maintenance
-                <Image className="bg-opacity-100" width={50} src={main} alt="" />
+                {/* <Image className="bg-opacity-100" width={50} src={main} alt="" /> */}
             </div>
 
             {/* Main content area */}

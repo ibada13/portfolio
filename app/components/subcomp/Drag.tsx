@@ -30,16 +30,16 @@ const Draggable = () => {
         // Revert the previous element (i-1) to normal styles
         if (i > 0) {
           c[i - 1].classList.replace("text-gl", "text-white");
-          c[i - 1].classList.remove("text-xl", "text-2xl");
+          // c[i - 1].classList.remove("text-xl", "text-2xl");
         } else {
           // Handle the case when i is 0 to avoid accessing c[-1]
           c[c.length - 1].classList.replace("text-gl", "text-white");
-          c[c.length - 1].classList.remove("text-xl", "text-2xl");
+          // c[c.length - 1].classList.remove("text-xl", "text-2xl");
         }
     
         // Apply new styles to the current element (i)
         c[i].classList.replace("text-white", "text-gl");
-        c[i].classList.add("text-xl", "text-2xl");
+        // c[i].classList.add("text-xl", "text-2xl");
         
         // Increment index and wrap around
         i = (i + 1) % c.length;
