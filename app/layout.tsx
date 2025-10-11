@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { Head } from "next/document";
+
 
 export const metadata: Metadata = {
   title: "Youcef Ha",

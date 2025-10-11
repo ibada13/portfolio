@@ -89,7 +89,7 @@ export const FrontEndProject: Project[] = [
         mainicon: <FaTableCells size={75} color='white' />,
         title: <p className={ `${bangers.className } text-3xl`}>Flash Game</p>,
         techs: [techs.Tailwind, techs.NextJs],
-        link:"https://memory-flash-it5hmxhzr-ibada13s-projects.vercel.app/"
+        link:"https://memory-flash.vercel.app/"
     }
 ]
 export interface cars  { 

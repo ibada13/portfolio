@@ -1,8 +1,8 @@
 'use client'
-import React, { useEffect } from 'react';
+import React from 'react';
 import { BsGithub, BsWhatsapp } from 'react-icons/bs'
 import { SiLichess } from "react-icons/si";
-import { gsap, Expo } from 'gsap';
+
 import { Typewriter } from 'react-simple-typewriter'
 
 import HistoricalTimeline from '@/app/figures/HistoricalTimeline';
