@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import { BsGithub, BsWhatsapp } from 'react-icons/bs'
-import { SiLichess } from "react-icons/si";
+import { SiLichess,SiLeetcode } from "react-icons/si";
 
 import { Typewriter } from 'react-simple-typewriter'
 
@@ -48,6 +48,9 @@ export const First = () => {
                             </a>
                             <a href="https://lichess.org/@/ibada" target="_blank" rel="noreferrer" className="mx-2">
                                 <SiLichess className="text-white text-2xl" />
+                            </a>
+                              <a href="https://leetcode.com/u/krypt3r/" target="_blank" rel="noreferrer" className="mx-2">
+                                <SiLeetcode className="text-[#FFA116] text-2xl" />
                             </a>
                             <a href="https://wa.me/213559781806" target="_blank" rel="noreferrer" className="mx-2">
                                 <BsWhatsapp className="text-green-500 text-2xl" />

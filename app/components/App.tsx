@@ -12,7 +12,12 @@ import './App.css';
 import { useEffect } from 'react';
 const App = () => {
   useEffect(() => { 
-    const lenis = new Lenis()
+    const lenis = new Lenis({
+      duration: 3, 
+
+   
+      lerp: 0.01, 
+    })
     
     
     

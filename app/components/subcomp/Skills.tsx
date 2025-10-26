@@ -24,8 +24,8 @@ export const Skil = () => {
   return (
     <div id="skillbox" className="min-h-screen w-full p-2 flex ">
       <div id="left" className="flex w-1/2 justify-center items-center h-screen ">
-        <h1 id="ptc" className="uppercase text-white text-center">
-          Programming Toolbox <span className="">&</span> Certs
+        <h1 id="ptc" className="uppercase text-white text-center text-2xl">
+          Programming Toolbox <span className="text-gl">&</span> Certs
         </h1>
       </div>
 

@@ -3,15 +3,15 @@ import React from "react";
 
 export const Con = () => { 
     return (
-        <div style={{ backgroundColor: '#070606' }} className="h-screen w-full flex justify-center items-center">
-            <div className="h-3/4 flex justify-center items-center">
-                <h4 id="ts" className="p-2 text-white text-center uppercase">
-                    <span className="text-green-500 text-2xl">Contact:</span>
+        <div className="min-h-screen w-full flex justify-center items-center bg-[#070606] p-4">
+            <div className="max-w-full text-center break-words">
+                <h4 id="ts" className="text-white uppercase text-lg sm:text-xl md:text-2xl">
+
                     <a 
-                        href="mailto:thisisforworkbyme@outlook.com" 
-                        className="text-white no-underline text-2xl text-center"
+                        href="mailto:hunterforuniversity@gmail.com" 
+                        className="text-white text-xl sm:text-2xl md:text-4xl  no-underline break-all"
                     >
-                        Hunterforuniversity@gmail.com
+                        Hunterforuniveristy<span className="text-gl">@</span>gmail<span className="text-gl">.</span>com
                     </a>
                 </h4>    
             </div>

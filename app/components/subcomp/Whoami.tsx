@@ -7,7 +7,7 @@ import { ColorAnimation, moveXAnimation, moveYAnimation } from "./lib/animation"
 export const Whoami = () => { 
 gsap.registerPlugin(ScrollTrigger)
 
-    const info = ["youcef,", "algerian,", "university student,","21 years old,"," front-end web-developer,"," malware developer"]
+    const info = ["youcef,", "algerian,", "university student,","21 years old,"," front-end web-developer,"]
 
     useEffect(() => { 
         // moveXAnimation("#ls");
